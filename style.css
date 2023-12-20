@@ -1,0 +1,100 @@
+body{
+	margin: 0px;
+}
+.grid{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	text-align: center;
+	background-color: lightseagreen;
+}
+.kiri{
+	grid-column: 1/2;
+	background-color: coral;
+	padding: 16px;
+}
+.tengah{
+	grid-column: 2/3;
+	background-color: chocolate;
+	padding: 16px;
+}
+.kanan{
+	grid-column: 3/4;
+	background-color: burlywood;
+	padding: 16px;
+}
+.kiri-bawah{
+	grid-column: 1/2;
+	background-color: coral;
+	padding: 16px;
+}
+.tengah-bawah{
+	grid-column: 2/3;
+	background-color: chocolate;
+	padding: 16px;
+}
+.kanan-bawah{
+	grid-column: 3/4;
+	background-color: burlywood;
+	padding: 16px;
+}
+
+/*csss layout*/
+header{
+	padding: 20px;
+	font-family: arial;
+	background-color: coral;
+	text-align: center;
+
+}
+nav{
+	padding: 12px;
+	background-color: lightseagreen;
+	text-align:center;
+}
+nav a{
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	font-family: arial;
+	font-weight: bold;
+}
+#grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	
+}
+#top-left-content{
+	grid-row: 1/4;
+	grid-column: 1/2;
+	background-color: coral;
+	padding: 10px;
+}
+#top-center-content{
+	grid-column: 2/4;
+	background-color: cyan;
+}
+#top-right-content{
+	grid-column: 2/3;
+	background-color: darkgoldenrod;
+}
+#bottom-left-content{
+	grid-column: 3/4
+	grid-row: 2/4;
+	background-color: coral;
+	padding: 10px;
+}
+#bottom-center-content{
+	grid-column: 2/4;
+	background-color: cyan;
+}
+#bottom-right-content{
+	grid-column: 2/4;
+	background-color: darkgoldenrod;
+}
+footer{
+	padding: 12px;
+	background-color: lightseagreen;
+	text-align:center;
+}
